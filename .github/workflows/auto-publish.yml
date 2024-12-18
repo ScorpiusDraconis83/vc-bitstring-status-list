@@ -1,5 +1,5 @@
 # .github/workflows/auto-publish.yml
-name: CI
+name: Publish to W3C
 on:
   pull_request: {}
   push:
@@ -17,4 +17,4 @@ jobs:
           W3C_WG_DECISION_URL: https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-04-12-vcwg#resolution1
           W3C_BUILD_OVERRIDE: |
              shortName: vc-bitstring-status-list
-             specStatus: WD
+             specStatus: CRD
